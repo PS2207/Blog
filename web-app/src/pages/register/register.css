@@ -1,0 +1,56 @@
+.register{
+    /* height: calc(100vh-50px); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(250,200,200,0.5),
+        rgba(250,200,200,0.5)
+      ),  url("https://source.unsplash.com//800x600/?book");
+      /* background:  url("https://source.unsplash.com//500x600/?bookshelf"); */
+    background-size:cover;
+    height: 900px;
+    /* margin: 1px 0; */
+}
+.registerTitle{
+    font-size:50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.registerInput{
+    padding: 10px;
+    background-color:antiquewhite ;
+    border: none;
+    width: 300px;
+    border-radius: 5px;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(98, 202, 130);
+    border: none;
+    color: rgb(227, 235, 235);
+    border-radius:10px ;
+    padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top:65px;
+    right:20px;
+    background-color: rgb(194, 90, 90);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: rgb(190, 199, 196);
+    border-radius: 10px;  
+
+
+}

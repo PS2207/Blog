@@ -1,0 +1,27 @@
+.header{
+    margin-top:90px;
+}
+.headerTitles{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;  
+    align-items: center;
+    color: rgb(117, 15, 15);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.headerTitleSm{
+   position: absolute;
+   top: 6%;
+   font-size: 30px;
+}
+.headerTitleLg{
+     position: absolute;
+     top: 8.8%;
+     font-size: 150px;
+}
+.headerImg{
+  width: 100%;
+  height: 450px;
+  margin-top: 80px;
+  object-fit: cover;
+}
